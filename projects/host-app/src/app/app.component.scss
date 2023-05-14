@@ -1,0 +1,21 @@
+h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  a {
+    text-decoration: none;
+    border: solid 1px black;
+    padding: 5px 10px;
+  }
+  a:hover, a:active {
+    text-decoration: none;
+    border: solid 1px black;
+    padding: 5px 10px;
+    background-color: burlywood;
+    color: black;
+  }
+}
